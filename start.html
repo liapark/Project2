@@ -20,65 +20,125 @@ body{
 
 }
 
-h1,h3{
+div{
   color: black;
   text-align: center;
   background-color: rgba(255,255,255,0.5);
-  width: 500px;
+  border: 4px dotted black;
+  width: 400px;
   position: relative;
-  left: 370px;
+  left: 420px;
+  margin-top: 40px;
 }
-h1{
-  padding-top: 50px;
-  padding-bottom: 30px;
-  margin-top: 200px;
+h2{
+  padding-top: 20px;
+  padding-bottom: 10px;
   margin-bottom: 0;
   text-align: center;
 }
 h3{
   margin: 0;
   padding-top: 0;
-  padding-bottom: 50px;
+  padding-bottom: 35px;
   text-align: center;
-
 }
 
-.GO{
-    border: 3px dotted white;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 20px;
-    width: 100px;
-    left: 570px;
-    }
+.closet{
+	width: 300px;
+	position: fixed;
+	left: 105px;
+	top: 6px;
+}
+.closet:hover{
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+}}
 
-a{
-	text-align: center;
+.bed{
+	width: 670px;
+	position: fixed;
+	left: 330px;
+	top: 120px;
+
 }
-a:link{
-color: black;
-text-decoration: none;
+.bed:hover{
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
 }
-a:visited{
-	color: white;
-	text-decoration: none;
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
 }
-a:hover{
-	color: red;
-	text-decoration: none;
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+}}
+
+.desk{
+	width: 410px;
+	position: fixed;
+	right: 102px;
+	top: 95px;
 }
 
+.desk:hover{
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+}}
 
 	</style>
 
 </head>
 
 <body>
-	<h1>WELCOME TO MY ROOM</h1>
-	<h3>want to explore?</h3>
-	<h3 class="GO"><a href="http://liapark.github.io/project2/room_2.html">YES</a></h3>
+	
+	<a href="http://liapark.github.io/project2/closet_1.html">
+<img class="closet" src="http://cfile271.uf.daum.net/image/23729D375639971F242586"></a>
+<a href="http://liapark.github.io/project2/bed_1.html"><img class="bed" src="http://cfile246.uf.daum.net/image/210DFD375639971A2B6366"></a>
+<a href="http://liapark.github.io/project2/desk_1.html"><img class="desk" src="http://cfile242.uf.daum.net/image/246924375639972532D6EF"></a>
 
-
+<div><h2>WELCOME TO MY ROOM</h2>
+	<h3>want to explore?</h3></div>
 </body>
 
 </html>
