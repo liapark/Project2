@@ -6,43 +6,118 @@
 
 	<style>
 	body{
-  	background-image: url('http://cfile266.uf.daum.net/original/262FD0415639531D137900');
-  	background-repeat: no-repeat;
+  	  background-image: url('https://scontent-iad3-1.xx.fbcdn.net/hphotos-xal1/t31.0-8/12184206_551180188374593_2388180947511424915_o.jpg');
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center; 
+   background-position: center top;
+    background-size: 82%;
+    background-color: rgb(229,212,200);
 } 
 
 
-a{
-	font-size: 36px;
-	text-align: center;
+body{
+  font-family: futura, sans-serif;
+
 }
-a:link{
-color: white;
-text-decoration: none;
+a:hover+span {
+	bottom: -36px;
+	opacity: 1;
 }
-a:visited{
+.computer{
+	width: 49%;
+	position: fixed;
+	left: 116px;
+	top: 0;
+
+}
+.computer:hover{
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+}}
+
+.phone{
+	width: 103px;
+	position: fixed;
+	bottom: 0px;
+	right: 435px;
+
+}
+.phone:hover{
+				opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+}}
+
+.makeup{
+	width: 23%;
+	position: fixed;
+	right: 109px;
+	bottom: 32px;
+	
+}
+.makeup:hover{
+		opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+}}
+
+h2{
 	color: black;
-	text-decoration: none;
-}
-a:hover{
-	color: red;
-	text-decoration: none;
-}
-
-.closet{
-	text-align: left;
-	margin-top: 50px;
-
-}
-.bed{
-	text-align: center;
-	margin-top: 100px;
-}
-.desk{
-	text-align: right;
-	right: 50px;
-
+  text-align: center;
+  background-color: rgba(255,255,255,0.7);
+  width: 400px;
+  position: fixed;
+  top: 100px;
+  right: 200px;
+  font-size: 36px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 	</style>
@@ -50,10 +125,12 @@ a:hover{
 </head>
 
 <body>
-	<div class="closet"><a href="http://liapark.github.io/project2/closet_1.html">
-<img src="yourPic"></a></div>
-	<div class="bed"><a href="http://liapark.github.io/project2/bed_1.html"><img src="yourPic"></a></div>
-	<div class="desk"><a href="http://liapark.github.io/project2/desk_1.html"><img src="yourPic"></a></div>
+<a href="http://liapark.github.io/project2/computer_1.html">
+<img class="computer" src="http://cfile278.uf.daum.net/original/254D2B4D5639779C2B0F76"></a>
+<a href="http://liapark.github.io/project2/phone_1.html"><img class="phone" src="http://cfile246.uf.daum.net/original/2471B64D563977A421C258"></a>
+<a href="http://liapark.github.io/project2/makeup_1.html"><img class="makeup" src="http://cfile243.uf.daum.net/original/227D074D563977A1200DD6"></a>
+
+<h2>Take a pick!</h2>
 </body>
 
 </html>
